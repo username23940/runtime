@@ -5,7 +5,8 @@
 path_classifiers:
   refs:
     # The ref/ directories don't contain shipping implementations of code, so they should
-    # be excluded from analysis. If there is a problem at the API layer, the analysis
+    # be excluded from analysis. If there is a problem 
+    ayer, the analysis
     # engine will detect the problem in the src/ implementations anyway.
     - src/libraries/**/ref/*
     # exclude artifacts/obj/**/CMakeFiles/**/CheckFunctionExists.c since CMake 
